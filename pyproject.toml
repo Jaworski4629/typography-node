@@ -1,0 +1,14 @@
+[project]
+name = "filesystem-node-iterator"
+version = "0.1.0"
+description = "Lazily yields every filesystem entry under a root as a stat-annotated record, with optional filtering by type, depth, and device boundary to halt cross-filesystem traversal."
+requires-python = ">=3.10"
+dependencies = []
+readme = "README.md"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+where = ["src"]
